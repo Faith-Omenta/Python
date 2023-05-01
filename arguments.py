@@ -27,7 +27,7 @@ def integers_list(list):
   for x in list:
       if x %2 !=0:
           empty_arr.append(x)
-          return empty_arr
+  return empty_arr
 
 # Write a Python function that takes a list of integers as input 
 # and returns the highest value in the list.
@@ -35,7 +35,7 @@ def list_integers(numbers):
     max=numbers[0]
     for num in numbers:
         if num>max:
-            max-num
+            max=num
     return max
 num=[3,4,5,6,7,8]
 print(list_integers(numbers))
